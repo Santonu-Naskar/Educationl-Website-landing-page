@@ -1,0 +1,343 @@
+
+
+@media (max-width: 1000px) {
+    .mynavbar{
+        flex-direction: column;
+        align-items: normal;
+        height: 250px;
+        justify-content: start;
+        overflow: hidden;
+    }
+
+    .height-N{
+        height: 87px !important;
+    }
+    .mynavbar .mynav-list {
+        height: 170px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-top: 1px solid rgb(66, 52, 40);
+        box-shadow: inset  0px 20px 19px 0px rgba(0, 0, 0, 0.169);
+    }
+    
+     .mynavbar .mynav-list li a{
+        font-size: 0.9rem;   margin-right: 6rem;
+    }
+    .mynavbar .mynav-list li{
+        padding: 0.15rem 4px;
+        gap: 0.5rem;
+    }
+    .mynavbar .logo{
+        margin-left: 3rem;
+    }
+    .mynavbar .navbtn1{
+        background-color: transparent;
+        padding: 4px 6px;
+        border-radius: 5px;
+        border: 1px solid orange;
+    }
+    .mynavbar .navbtn .line1{
+        width: 2rem;
+        background-color: orange;
+        height: 3px;
+        margin: 5px 3px;
+    }
+    .mynavbar .mynav-list .signup {
+        margin:0rem;
+        background-color: orange;
+        color: white;
+        position: absolute;
+        top: 0.5rem;
+        right: 8.5rem;
+    }
+    .mynavbar .mynav-list .login{
+        margin: 0rem;
+        background-color: orange;
+        color: white;
+        position: absolute;
+        top: 0.5rem;
+        right: 1.5rem;
+    }
+    .mynavbar .btn3:hover{
+        transform: translate(0px,0px);
+    }
+    .mynavbar .btn3:hover::after{
+        transform: translate(4px,4px);
+    }
+    .mynavbar .btn3:hover::before{
+        transform: translate(8px,8px);
+    }
+/* Mainbox1_________________________________________________________________ */
+    .mainbox1{
+        padding: 30px 1.5rem;
+        width: auto;
+        height: auto;
+    }
+    .mainbox1 .form{
+        width: auto;
+    }
+    .mainbox2{
+        padding: 30px 1.5rem;
+        width: auto;
+        height: auto;
+    }
+    
+    
+}
+@media (max-width: 900px){
+    .main-box .btnl{
+        display: none;
+    }
+    .main-box .btnr{
+        display: none;
+    }
+    .mainbox > h4{
+        font-size: 1.8rem;
+    }
+    .mainbox > h4 span{
+        font-size: 0.8rem;
+    }
+    .mainbox1{
+        padding: 25px 2rem;
+        width: auto;
+        height: auto;
+    }
+    .mainbox1 h1{
+        font-size: 2rem;
+        font-weight: 550;
+        margin-bottom: 15px;
+    }
+    .mainbox1 .form .infobox{
+        width: 100%;
+        display: inline-block;
+    }
+    .mainbox1 .form .info .button{
+        width: 100%;
+    }
+    .mainbox1 .form .info .input1{
+        width: 31%;
+    }
+    .mainbox1 .form .info .input-box{
+        width: 31%;
+    }
+    .mainbox2{
+        padding: 25px 2rem;
+        width: auto;
+        height: auto;
+    }
+    .box a {
+        min-width: 220px;
+    }
+}
+@media (max-width: 750px){
+    .logo img {
+        margin-top: 2px;
+        width: 100px;
+        height: 75px;
+        border-radius: 10%;
+        background-color: #fff;
+    }
+    .mynavbar{
+        height: 230px;
+    }
+    .height-N{
+        height: 77px !important;
+    }
+    .mynavbar .mynav-list li a{
+        font-size: 0.8rem ;
+    }
+    .mynavbar .navbtn{
+        top: 1.2rem ;
+    }
+    .mainbox1{
+        padding: 20px 3rem;
+        width: auto;
+        height: auto;
+    }
+    .mainbox1 h1{
+        font-size: 1.5rem;
+        font-weight: 550;
+        margin-bottom: 10px;
+    }
+    .mainbox1 .form .info .input1{
+        width: 48%;
+    }
+    .mainbox1 .form .info .input-box{
+        width: 60%;
+    }
+    .mainbox1 .form .info .button{
+        width: 37%;
+    }
+    .mainbox2{
+        padding: 10px 3rem;
+        width: auto;
+        height: auto;
+    }
+    .box a {
+        min-width: 200px;
+    }
+    .box h2{
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    .box{
+        border-radius: 10px;
+    }
+    
+    .box a h2{
+        font-size: 1.1rem;
+    }
+    .box .span1{
+        font-size: 13px;
+    }
+    .box .second img{
+        height: 25px;
+    }
+
+    
+    /* Footer__________________________________________________________________________________________ */
+    #foot {
+        height: 80%;
+    }
+
+    #foot h4 {
+        font-size: 0.8rem;
+    }
+
+    #foot p {
+        font-size: .5rem;
+    }
+
+    .foot1 {
+        margin-left: 34px;
+
+    }
+
+    .foots p a img {
+        height: 21px;
+        width: 26px;
+    }
+
+    .reser {
+        font-size: .5rem;
+    }
+
+    .foots {
+        margin: 33px 10px;
+    }
+    .fa {
+        font-size: 0.9rem !important;
+    }
+    #foot .links{
+        gap: 0.5rem;
+    }
+
+    #foot h4 {
+        font-size: .7rem;
+    }
+}
+@media (max-width: 600px){
+    .mynavbar .mynav-list {
+        align-items: flex-start;
+    }
+    .mynavbar .mynav-list li{
+        margin-left: 2rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    .mainbox1 .form .info .input1{
+        width: 100%;
+        transform: scale(0.9);
+    }
+    .mainbox1 .form .info .input-box{
+        width: 100%;
+        transform: scale(0.9);
+
+    }
+    .mainbox1 .form .info .button{
+        width: 100%;
+        transform: scale(0.9);
+
+    }
+
+    .mainbox1 .form .searchbox1{
+        display: block;
+        transform: scale(0.9);
+    }
+    .mainbox1 .form .searchbox1{
+        width: 100%;
+        height: 30px;
+        position: relative;
+        border: 1px solid rgb(94, 94, 94);
+        display: flex;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    .mainbox1 .form .searchimg{
+        height: 100%;
+        width: auto;
+        background: rgb(250, 250, 250);
+        /* box-shadow: 10px 10px red; */
+    }
+    .mainbox1 .form .search{
+        padding-left: 8px;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 100%;
+    }
+    .mainbox1 .form .searchbox{
+        display: none;
+    }
+    .mainbox1{
+        padding: 10px 2rem;
+    }
+    .mainbox1 h1{
+        font-size: 1.3rem;
+        font-weight: 550;
+        margin-bottom: 10px;
+    }
+    .mainbox2{
+        padding: 0px 2rem;
+    }
+    .box a{
+        min-width: 180px;
+    }
+    .box a h4{
+        font-size: 0.8rem;
+        padding: 7px 0px;
+    }
+    .box a h2{
+        padding: 0.5rem 0px;
+    }
+    .box a .btn{
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 0.6rem;
+        padding-top: 0.6rem;
+    }
+    
+}
+
+/* up 1000_____________________________________________________________________________________________ */
+@media (min-width: 750px) {
+    .mainbox1 .form .info{
+        overflow: hidden;
+        height: 48px;
+    }
+    .btn1{
+        display: none;
+    }
+}
+
+/* upp 1200_________________________________________________________________________________________ */
+@media (min-width: 1000px) {
+    .mynavbar .navbtn{
+        display: none;
+    }
+    .mynavbar .mynav-list .signup{
+        margin-right: 2rem;
+    }
+}
